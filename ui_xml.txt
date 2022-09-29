@@ -1,0 +1,60 @@
+<Panel id="uipanels1"
+active="false"
+position="-800 0 -75"
+rotation="180 180 0"
+height="200"
+width="210"
+padding="0,0,0,0"
+>
+<Image image="dark_gray_image"></Image>
+</Panel>
+
+<VerticalLayout id="uipanels3" active="false"
+position="-800 10 -75"
+rotation="0 0 0"
+height="50"
+width="200"
+padding="10,10,0,0"
+spacing = "0"
+>
+<Toggle isOn="true" textColor="#FFFFFF" onValueChanged="baseSetSelection">
+    Base Set
+</Toggle>
+<Toggle isOn="true" textColor="#FFFFFF" onValueChanged="villainsSelection">
+    Villains
+</Toggle>
+</VerticalLayout>
+
+
+<VerticalScrollView position="-800 100 0" height="100" width="200" active="false" id="uipanels">
+    <ToggleGroup height="200" allowSwitchOff="true">
+    <VerticalLayout height="200">
+        <Toggle isOn="false" textColor="#FFFFFF" onValueChanged="drDoomSelection">Dr. Doom</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF" onValueChanged="lokiSelection">Loki</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Magneto</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Red Skull</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Dr. Strange</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Nick Fury</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Odin</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Professor X</Toggle>
+        <Toggle isOn="false" textColor="#FFFFFF">Random</Toggle>
+    </VerticalLayout>
+    </ToggleGroup>
+</VerticalScrollView>
+
+<VerticalScrollView position="-800 -100 -75" height="200" width="200" active="false">
+    <VerticalLayout height="250">
+        <Toggle isOn="false">Test</Toggle>
+    </VerticalLayout>
+</VerticalScrollView>
+
+<VerticalLayout id="uipanels4" active="false"
+position="-800 -70 -75"
+rotation="0 0 0"
+height="50"
+width="150"
+padding="10,10,0,10"
+spacing = "0"
+>
+<Button onClick="buttonClicked"> Randomize Setup </Button>
+</VerticalLayout>
