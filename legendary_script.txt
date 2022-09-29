@@ -1,0 +1,1362 @@
+-- base, villains, paint the town red
+--[[
+blackWidowDeck_GUID = '55b2d0'
+captAmerDeck_GUID = '920b0a'
+cyclopsDeck_GUID = '69c55f'
+deadpoolDeck_GUID = '3fcbb1'
+emmaFrostDeck_GUID = '6b2441'
+gambitDeck_GUID = 'e69f9e'
+hawkeyeDeck_GUID = '5e2867'
+hulkDeck_GUID = 'b6d590'
+ironManDeck_GUID = '1ce3f3'
+nickFuryDeck_GUID = 'be421c'
+rogueDeck_GUID = '43266d'
+spidermanDeck_GUID = '75c2eb'
+stormDeck_GUID = '67d617'
+thorDeck_GUID = '2726b0'
+wolverineDeck_GUID = '1c8fea'
+shieldTrooperDeck_GUID = 'cd4725'
+shieldAgentDeck_GUID = 'ac5621'
+shieldOfficerDeck_GUID = 'efd9e3'
+drDoomDeck_GUID = '4e5616'
+lokiDeck_GUID = 'f4adab'
+magnetoDeck_GUID = 'a1762e'
+redSkullDeck_GUID = 'b7e1c4'
+brotherhoodDeck_GUID = 'dfeb22'
+enemiesOfAsgardDeck_GUID = '4fda1f'
+hydraDeck_GUID = '947c3c'
+mastersOfEvilDeck_GUID = 'cac356'
+radiationDeck_GUID = '038099'
+skrullsDeck_GUID = 'c8f34b'
+spiderFoesDeck_GUID = '06ab02'
+doombotDeck_GUID = '4c3efe'
+handNinjasDeck_GUID = 'a85365'
+savageLandDeck_GUID = '4d04e9'
+sentinelDeck_GUID = 'd21c09'
+schemesDeck_GUID = 'ac81b2'
+schemeTwistDeck_GUID = 'e7e383'
+masterStrikeDeck_GUID = 'ec5d00'
+bystanderDeck_GUID = 'ef6048'
+woundDeck_GUID = '575e04'
+core_bag_GUID = '1e0c1c'
+core_rules_GUID = '64bb85'
+--]]
+
+core_bag_GUID = 'da5d80'
+villains_bag_GUID = '1e0c1c'
+
+--playmat_GUID = '492444'
+--playmat_GUID = 'd24da5'
+playmat_GUID = '6642e9'
+card_GUID = '6d728a'
+deckmat_GUID = '70386c'
+
+--[[
+bindingsDeck = '2febba'
+villains_bystandersDeck = 'd843f6'
+commandStrikeDeck_GUID = '096fc2'
+plotTwistDeck_GUID = '612c8b'
+plotDeck_GUID = 'dbd009'
+hydraOperativeDeck = '36c414'
+hydraSoldierDeck = '7f217d'
+newRecruitDeck = '08e8af'
+madameHydraDeck = 'bebb76'
+villains_profXDeck = '0501f7'
+odinDeck = '8b1ca2'
+villains_nickFuryDeck = 'dadbb3'
+villains_drStrangeDeck = '7dc6b7'
+asgardianWarriorsDeck = 'f6816f'
+copsDeck_GUID = 'defbd5'
+multipleManDeck = 'db9632'
+shieldAssaultSquadDeck = '221c31'
+xMenFirstClassDeck = 'f62bac'
+uncannyXMenDeck = '92a77e'
+uncannyAvengersDeck = '5587b6'
+spiderFriendsDeck = '4e692a'
+marvelKnightsDeck = 'aad3bb'
+defendersDeck = '2bba8e'
+avengersDeck = '2c7326'
+villains_venomDeck = 'd451c2'
+villains_ultronDeck = '89730d'
+sabretoothDeck = 'f4626c'
+mystiqueDeck = '6a62cf'
+villains_mysterioDeck = 'f60880'
+villains_magnetoDeck = '0081b2'
+villains_lokiDeck = '420ea2'
+kravenDeck = '53fc3c'
+kingpinDeck = '5a6799'
+juggernautDeck = '582ca0'
+greenGoblinDeck = '94d1ab'
+enchantressDeck = 'c4a742'
+electroDeck = '1a7557'
+drOctopusDeck = '4446dc'
+bullseyeDeck = 'afe8f6'
+villains_bag_GUID = 'da5d80'
+villains_rules_GUID = '011726'
+
+startGUIDs = {blackWidowDeck_GUID,captAmerDeck_GUID,cyclopsDeck_GUID,deadpoolDeck_GUID,emmaFrostDeck_GUID,
+              gambitDeck_GUID,hawkeyeDeck_GUID,hulkDeck_GUID,ironManDeck_GUID,nickFuryDeck_GUID,rogueDeck_GUID,
+              spidermanDeck_GUID,stormDeck_GUID,thorDeck_GUID,wolverineDeck_GUID,shieldTrooperDeck_GUID,
+              shieldAgentDeck_GUID,shieldOfficerDeck_GUID,drDoomDeck_GUID,lokiDeck_GUID,magnetoDeck_GUID,
+              redSkullDeck_GUID,brotherhoodDeck_GUID,enemiesOfAsgardDeck_GUID,hydraDeck_GUID,mastersOfEvilDeck_GUID,
+              radiationDeck_GUID,skrullsDeck_GUID,spiderFoesDeck_GUID,doombotDeck_GUID,handNinjasDeck_GUID,
+              savageLandDeck_GUID,sentinelDeck_GUID,schemesDeck_GUID,schemeTwistDeck_GUID,masterStrikeDeck_GUID,
+              bystanderDeck_GUID,woundDeck_GUID,core_bag_GUID,core_rules_GUID,
+              playmat_GUID,card_GUID,
+              bindingsDeck,villains_bystandersDeck,commandStrikeDeck,plotTwistDeck_GUID,plotDeck_GUID,hydraOperativeDeck,
+              hydraSoldierDeck,newRecruitDeck,madameHydraDeck,villains_profXDeck,odinDeck,villains_nickFuryDeck,
+              villains_drStrangeDeck,asgardianWarriorsDeck,copsDeck_GUID,multipleManDeck,shieldAssaultSquadDeck,
+              xMenFirstClassDeck,uncannyXMenDeck,uncannyAvengersDeck,spiderFriendsDeck,marvelKnightsDeck,
+              defendersDeck,avengersDeck,villains_venomDeck,villains_ultronDeck,sabretoothDeck,mystiqueDeck,
+              villains_mysterioDeck,villains_magnetoDeck,villains_lokiDeck,kravenDeck,kingpinDeck,juggernautDeck,
+              greenGoblinDeck,enchantressDeck,electroDeck,drOctopusDeck,bullseyeDeck,villains_bag_GUID,
+              villains_rules_GUID}
+--]]
+
+
+uipanel_button_parameters = {
+    click_function="buttonClicked2", function_owner=nil, label="Show Panel",
+    position= {-4,0,-4}, rotation={0,0,0}, width=900, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+p1_button_parameters = {
+    click_function="numPlayerToggle1", function_owner=nil, label="\u{25A1} 1",
+    position={-5.25,0,-3}, rotation={0,0,0}, width=300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+p2_button_parameters = {
+    click_function="numPlayerToggle2", function_owner=nil, label="\u{25A1} 2",
+    position={-4.65,0,-3}, rotation={0,0,0}, width=300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+p3_button_parameters = {
+    click_function="numPlayerToggle3", function_owner=nil, label="\u{25A1} 3",
+    position={-4.05,0,-3}, rotation={0,0,0}, width=300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+p4_button_parameters = {
+    click_function="numPlayerToggle4", function_owner=nil, label="\u{25A1} 4",
+    position={-3.45,0,-3}, rotation={0,0,0}, width=300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+p5_button_parameters = {
+    click_function="numPlayerToggle5", function_owner=nil, label="\u{25A1} 5",
+    position={-2.85,0,-3}, rotation={0,0,0}, width=300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+core_button_parameters = {
+    click_function="coreSetSelection", function_owner=nil, label="\u{25A0}  Base Set",
+    position={-4,0,-2}, rotation={0,0,0}, width=900, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+    --color={r=16/255,g=53/255,b=138/255}
+}
+villains_button_parameters = {
+    click_function="villainsSetSelection", function_owner=nil, label="\u{25A0}  Villains",
+    position={-4,0,-1}, rotation={0,0,0}, width=900, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+    --color={r=30/255,g=54/255,b=111/255}
+}
+randomize_button_parameters = {
+    click_function="buttonClicked", function_owner=nil, label="Randomize Setup",
+    position={-4,0,0}, rotation={0,0,0}, width=1300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+    --color={r=33/255,g=53/255,b=100/255}
+}
+custom_button_parameters = {
+    click_function="toggleCustomPanel", function_owner=nil, label="Custom Setup",
+    position={-4,0,1}, rotation={0,0,0}, width=1300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+    --color={r=33/255,g=53/255,b=100/255}
+}
+run_setup_button_parameters = {
+    click_function="run_clear_setup", function_owner=nil, label="Run Setup",
+    position={-4,0,2}, rotation={0,0,0}, width=1300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+
+test_shuffle_button_parameters = {
+    click_function="testButton", function_owner=nil, label="Test Button",
+    position={-4,0,3}, rotation={0,0,0}, width=1300, height=400, font_size=150, font_color={r=1,g=1,b=1},
+    color={r=23/255,g=40/255,b=78/255}
+}
+
+
+
+function onload()
+    coreSetup()
+
+    villainsSetup()
+
+    playmat = getObjectFromGUID(playmat_GUID)
+    playmat.interactable = false
+    deckmat = getObjectFromGUID(deckmat_GUID)
+    hcard = getObjectFromGUID(card_GUID)
+    hcard.createButton(uipanel_button_parameters)
+    hcard.createButton(p1_button_parameters)
+    hcard.createButton(p2_button_parameters)
+    hcard.createButton(p3_button_parameters)
+    hcard.createButton(p4_button_parameters)
+    hcard.createButton(p5_button_parameters)
+    hcard.createButton(core_button_parameters)
+    hcard.createButton(villains_button_parameters)
+    hcard.createButton(randomize_button_parameters)
+    hcard.createButton(custom_button_parameters)
+    hcard.createButton(run_setup_button_parameters)
+    hcard.createButton(test_shuffle_button_parameters)
+
+end
+
+
+function sendObjectPlayerHand(obj, player)
+    local offset = 4
+    --msg(player.color)
+    local hand = player.getHandTransform()
+    --print("test1: ",hand.position.x)
+    local target =
+        { --hand.position.x + hand.forward.x * offset
+        --, hand.position.y + hand.forward.y * offset
+        hand.position.x + hand.forward.x
+        , 1
+        , hand.position.z + hand.forward.z * 7
+        }
+    --print("test2: ", target)
+    obj.setPositionSmooth(target,true,true)
+    obj.setRotationSmooth(
+        {hand.rotation.x
+        , hand.rotation.y + 180 --make object look out from hand
+        , hand.rotation.z }
+    )
+end
+
+function testButton()
+--[[
+    local playerList = Player.getPlayers()
+    print(playerList)
+    print(playerList[1].color)
+    --sendObjectPlayerHand(deckmant, playerList[1])
+    for i,v in ipairs(playerList) do sendObjectPlayerHand(deckmat, v) end
+    --for _,v in ipairs(getSeatedPlayers()) do print(v) end
+--]]
+    local objectsInZone = heroZone.getObjects()
+    for i, object in ipairs(objectsInZone) do
+        if object.tag == "Deck" then
+            --return object
+            print("Deck")
+        end
+        if object.tag == "Card" then
+            print("Card")
+            object.takeObject({position={5,0,0}})
+        end
+    end
+    return nil
+end
+
+startGUIDs = {core_bag_GUID, villains_bag_GUID, playmat_GUID, card_GUID, deckmat_GUID}
+
+function coreSetup()
+    core_bag = getObjectFromGUID(core_bag_GUID)
+
+    local playable = {"Black Widow", "Captain America", "Cyclops", "Deadpool", "Emma Frost",
+                      "Gambit", "Hawkeye", "Hulk", "Iron Man", "Nick Fury", "Rogue",
+                      "Spider-Man", "Storm", "Thor", "Wolverine"}
+    local masterminds = {"Dr. Doom", "Loki", "Magneto", "Red Skull"}
+    local villains = {"Brotherhood", "Enemies Of Asgard", "Hydra", "Masters Of Evil",
+                      "Radiation", "Skrulls", "Spider-Foes"}
+    local henchmen = {"Doombot Legion", "Hand Ninjas", "Savage Land Mutates", "Sentinel"}
+    local schemes = {"The Legacy Virus", "Midtown Bank Robbery", "Negative Zone Prison Breakout",
+                     "Portals To The Dark Dimension", "Replace Earth's Leaders With Killbots",
+                     "Secret Invasion Of The Skrull Shapeshifters", "Super Hero Civil War",
+                     "Unleash The Power Of The Cosmic Cube"}
+    core_setup2 = {}
+    core_setup2.playable = playable
+    core_setup2.masterminds = masterminds
+    core_setup2.villains = villains
+    core_setup2.henchmen = henchmen
+    core_setup2.schemes = schemes
+
+--[[
+    blackWidowDeck = getObjectFromGUID(blackWidowDeck_GUID)
+    captAmerDeck = getObjectFromGUID(captAmerDeck_GUID)
+    cyclopsDeck = getObjectFromGUID(cyclopsDeck_GUID)
+    deadpoolDeck = getObjectFromGUID(deadpoolDeck_GUID)
+    emmaFrostDeck = getObjectFromGUID(emmaFrostDeck_GUID)
+    gambitDeck = getObjectFromGUID(gambitDeck_GUID)
+    hawkeyeDeck = getObjectFromGUID(hawkeyeDeck_GUID)
+    hulkDeck = getObjectFromGUID(hulkDeck_GUID)
+    ironManDeck = getObjectFromGUID(ironManDeck_GUID)
+    nickFuryDeck = getObjectFromGUID(nickFuryDeck_GUID)
+    rogueDeck = getObjectFromGUID(rogueDeck_GUID)
+    spidermanDeck = getObjectFromGUID(spidermanDeck_GUID)
+    stormDeck = getObjectFromGUID(stormDeck_GUID)
+    thorDeck = getObjectFromGUID(thorDeck_GUID)
+    wolverineDeck = getObjectFromGUID(wolverineDeck_GUID)
+    shieldTrooperDeck = getObjectFromGUID(shieldTrooperDeck_GUID)
+    shieldAgentDeck = getObjectFromGUID(shieldAgentDeck_GUID)
+    shieldOfficerDeck = getObjectFromGUID(shieldOfficerDeck_GUID)
+    drDoomDeck = getObjectFromGUID(drDoomDeck_GUID)
+    lokiDeck = getObjectFromGUID(lokiDeck_GUID)
+    magnetoDeck = getObjectFromGUID(magnetoDeck_GUID)
+    redSkullDeck = getObjectFromGUID(redSkullDeck_GUID)
+    brotherhoodDeck = getObjectFromGUID(brotherhoodDeck_GUID)
+    enemiesOfAsgardDeck = getObjectFromGUID(enemiesOfAsgardDeck_GUID)
+    hydraDeck = getObjectFromGUID(hydraDeck_GUID)
+    mastersOfEvilDeck = getObjectFromGUID(mastersOfEvilDeck_GUID)
+    radiationDeck = getObjectFromGUID(radiationDeck_GUID)
+    skrullsDeck = getObjectFromGUID(skrullsDeck_GUID)
+    spiderFoesDeck = getObjectFromGUID(spiderFoesDeck_GUID)
+    doombotDeck = getObjectFromGUID(doombotDeck_GUID)
+    handNinjasDeck = getObjectFromGUID(handNinjasDeck_GUID)
+    savageLandDeck = getObjectFromGUID(savageLandDeck_GUID)
+    sentinelDeck = getObjectFromGUID(sentinelDeck_GUID)
+    schemesDeck = getObjectFromGUID(schemesDeck_GUID)
+    schemeTwistDeck = getObjectFromGUID(schemeTwistDeck_GUID)
+    masterStrikeDeck = getObjectFromGUID(masterStrikeDeck_GUID)
+    bystanderDeck = getObjectFromGUID(bystanderDeck_GUID)
+    woundDeck = getObjectFromGUID(woundDeck_GUID)
+    core_bag = getObjectFromGUID(core_bag_GUID)
+    core_rules = getObjectFromGUID(core_rules_GUID)
+
+    --core_setup_table = {}
+    core_setup_table = {core_bag,woundDeck,bystanderDeck,masterStrikeDeck,schemeTwistDeck,schemesDeck,
+                        shieldOfficerDeck,shieldTrooperDeck,shieldAgentDeck,sentinelDeck,savageLandDeck,
+                        handNinjasDeck,doombotDeck,spiderFoesDeck,skrullsDeck,radiationDeck,mastersOfEvilDeck,
+                        hydraDeck,enemiesOfAsgardDeck,brotherhoodDeck,redSkullDeck,magnetoDeck,lokiDeck,
+                        drDoomDeck,wolverineDeck,thorDeck,stormDeck,spidermanDeck,rogueDeck,nickFuryDeck,
+                        ironManDeck,hulkDeck,hawkeyeDeck,gambitDeck,emmaFrostDeck,deadpoolDeck,cyclopsDeck,
+                        captAmerDeck,blackWidowDeck,core_rules}
+
+    startingPositions(core_setup_table,-17,6)
+
+    local playable = {blackWidowDeck, captAmerDeck, cyclopsDeck, deadpoolDeck, emmaFrostDeck,
+                      gambitDeck, hawkeyeDeck, hulkDeck, ironManDeck, nickFuryDeck, rogueDeck,
+                      spidermanDeck, stormDeck, thorDeck, wolverineDeck}
+    local masterminds = {drDoomDeck, lokiDeck, magnetoDeck, redSkullDeck}
+    local villains = {brotherhoodDeck, enemiesOfAsgardDeck, hydraDeck, mastersOfEvilDeck,
+                      radiationDeck, skrullsDeck, spiderFoesDeck}
+    local henchmen = {doombotDeck, handNinjasDeck, savageLandDeck, sentinelDeck}
+    local schemes = {"The Legacy Virus", "Midtown Bank Robbery", "Negative Zone Prison Breakout",
+                     "Portals to the Dark Dimension", "Replace Earth's Leaders with Killbots",
+                     "Secret Invasion of the Skrull Shapeshifters", "Super Hero Civil War",
+                     "Unleash the Power of the Cosmic Cube"}
+    core_setup2 = {}
+    core_setup2.playable = playable
+    core_setup2.masterminds = masterminds
+    core_setup2.villains = villains
+    core_setup2.henchmen = henchmen
+    core_setup2.schemes = schemes
+
+    blackWidowDeck.setName('Black Widow')
+    captAmerDeck.setName('Captain America')
+    cyclopsDeck.setName('Cyclops')
+    deadpoolDeck.setName('Deadpool')
+    emmaFrostDeck.setName('Emma Frost')
+    gambitDeck.setName('Gambit')
+    hawkeyeDeck.setName('Hawkeye')
+    hulkDeck.setName('Hulk')
+    ironManDeck.setName('Iron Man')
+    nickFuryDeck.setName('Nick Fury')
+    rogueDeck.setName('Rogue')
+    spidermanDeck.setName('Spider-Man')
+    stormDeck.setName('Storm')
+    thorDeck.setName('Thor')
+    wolverineDeck.setName('Wolverine')
+    shieldTrooperDeck.setName('S.H.I.E.L.D. Trooper')
+    shieldAgentDeck.setName('S.H.I.E.L.D. Agent')
+    shieldOfficerDeck.setName('S.H.I.E.L.D. Officer')
+    drDoomDeck.setName('Dr. Doom')
+    lokiDeck.setName('Loki')
+    magnetoDeck.setName('Magneto')
+    redSkullDeck.setName('Red Skull')
+    brotherhoodDeck.setName('Brotherhood')
+    enemiesOfAsgardDeck.setName('Enemies of Asgard')
+    hydraDeck.setName('Hydra')
+    mastersOfEvilDeck.setName('Masters of Evil')
+    radiationDeck.setName('Radiation')
+    skrullsDeck.setName('Skrulls')
+    spiderFoesDeck.setName('Spider-Foes')
+    doombotDeck.setName('Doombot Legion')
+    handNinjasDeck.setName('Hand Ninjas')
+    savageLandDeck.setName('Savage Land Mutates')
+    sentinelDeck.setName('Sentinel')
+    schemesDeck.setName('Schemes')
+    schemeTwistDeck.setName('Scheme Twist')
+    masterStrikeDeck.setName('Master Strike')
+    bystanderDeck.setName('Bystanders')
+    woundDeck.setName('Wounds')
+    core_bag.setName('Base Set')
+    core_rules.setName('Base Rules')
+--]]
+end
+
+function villainsSetup()
+    villains_bag = getObjectFromGUID(villains_bag_GUID)
+
+    local playable = {"Bullseye", "Dr. Octopus", "Electro", "Enchantress", "Green Goblin",
+                      "Juggernaut", "Kingpin", "Kraven", "Loki", "Magneto",
+                      "Mysterio", "Mystique", "Sabretooth", "Ultron", "Venom"}
+
+    local masterminds = {"Dr. Strange", "Nick Fury", "Odin", "Professor X"}
+
+    local villains = {"Avengers", "Defenders", "Marvel Knights", "Spider-Friends",
+                      "Uncanny Avengers", "Uncanny X-Men", "X-Men First Class"}
+
+    local henchmen = {"Asgardian Warriors", "Cops", "Multiple Man", "S.H.I.E.L.D. Assault Squad"}
+
+    local schemes = {"Build An Underground Mega-Vault Prison", "Cage Villains In Power-Suppressing Cells",
+                     "Crown Thor King Of Asgard", "Crush Hydra", "Graduation At Xavier's X-Academy",
+                     "Infiltrate The Lair With Spies", "Mass Produce War Machine Armor",
+                     "Resurrect Heroes With The Norn Stones",}
+
+    --villains_setup2 = {playable, masterminds, villains, henchmen, schemes}
+    villains_setup2 = {}
+    villains_setup2.playable = playable
+    villains_setup2.masterminds = masterminds
+    villains_setup2.villains = villains
+    villains_setup2.henchmen = henchmen
+    villains_setup2.schemes = schemes
+
+--[[
+    bindingsDeck = getObjectFromGUID(bindingsDeck)
+    villains_bystandersDeck = getObjectFromGUID(villains_bystandersDeck)
+    commandStrikeDeck = getObjectFromGUID(commandStrikeDeck_GUID)
+    plotTwistDeck = getObjectFromGUID(plotTwistDeck_GUID)
+    plotDeck = getObjectFromGUID(plotDeck_GUID)
+    hydraOperativeDeck = getObjectFromGUID(hydraOperativeDeck)
+    hydraSoldierDeck = getObjectFromGUID(hydraSoldierDeck)
+    newRecruitDeck = getObjectFromGUID(newRecruitDeck)
+    madameHydraDeck = getObjectFromGUID(madameHydraDeck)
+    villains_profXDeck = getObjectFromGUID(villains_profXDeck)
+    odinDeck = getObjectFromGUID(odinDeck)
+    villains_nickFuryDeck = getObjectFromGUID(villains_nickFuryDeck)
+    villains_drStrangeDeck = getObjectFromGUID(villains_drStrangeDeck)
+    asgardianWarriorsDeck = getObjectFromGUID(asgardianWarriorsDeck)
+    copsDeck = getObjectFromGUID(copsDeck_GUID)
+    multipleManDeck = getObjectFromGUID(multipleManDeck)
+    shieldAssaultSquadDeck = getObjectFromGUID(shieldAssaultSquadDeck)
+    xMenFirstClassDeck = getObjectFromGUID(xMenFirstClassDeck)
+    uncannyXMenDeck = getObjectFromGUID(uncannyXMenDeck)
+    uncannyAvengersDeck = getObjectFromGUID(uncannyAvengersDeck)
+    spiderFriendsDeck = getObjectFromGUID(spiderFriendsDeck)
+    marvelKnightsDeck = getObjectFromGUID(marvelKnightsDeck)
+    defendersDeck = getObjectFromGUID(defendersDeck)
+    avengersDeck = getObjectFromGUID(avengersDeck)
+    villains_venomDeck = getObjectFromGUID(villains_venomDeck)
+    villains_ultronDeck = getObjectFromGUID(villains_ultronDeck)
+    sabretoothDeck = getObjectFromGUID(sabretoothDeck)
+    mystiqueDeck = getObjectFromGUID(mystiqueDeck)
+    villains_mysterioDeck = getObjectFromGUID(villains_mysterioDeck)
+    villains_magnetoDeck = getObjectFromGUID(villains_magnetoDeck)
+    villains_lokiDeck = getObjectFromGUID(villains_lokiDeck)
+    kravenDeck = getObjectFromGUID(kravenDeck)
+    kingpinDeck = getObjectFromGUID(kingpinDeck)
+    juggernautDeck = getObjectFromGUID(juggernautDeck)
+    greenGoblinDeck = getObjectFromGUID(greenGoblinDeck)
+    enchantressDeck = getObjectFromGUID(enchantressDeck)
+    electroDeck = getObjectFromGUID(electroDeck)
+    drOctopusDeck = getObjectFromGUID(drOctopusDeck)
+    bullseyeDeck = getObjectFromGUID(bullseyeDeck)
+    villains_bag = getObjectFromGUID(villains_bag_GUID)
+    villains_rules = getObjectFromGUID(villains_rules_GUID)
+
+    villains_setup_table = {villains_bag,bindingsDeck,villains_bystandersDeck,commandStrikeDeck,plotTwistDeck,
+                            plotDeck,hydraOperativeDeck,hydraSoldierDeck,newRecruitDeck,madameHydraDeck,
+                            shieldAssaultSquadDeck,multipleManDeck,copsDeck,asgardianWarriorsDeck,
+                            xMenFirstClassDeck,uncannyXMenDeck,uncannyAvengersDeck,spiderFriendsDeck,
+                            marvelKnightsDeck,defendersDeck,avengersDeck,villains_profXDeck,odinDeck,
+                            villains_nickFuryDeck,villains_drStrangeDeck,villains_venomDeck,villains_ultronDeck,
+                            sabretoothDeck,mystiqueDeck,villains_mysterioDeck,villains_magnetoDeck,villains_lokiDeck,
+                            kravenDeck,kingpinDeck,juggernautDeck,greenGoblinDeck,enchantressDeck,electroDeck,
+                            drOctopusDeck,bullseyeDeck,villains_rules}
+    
+    local playable = {bullseyeDeck, drOctopusDeck, electroDeck, enchantressDeck, greenGoblinDeck,
+                      juggernautDeck, kingpinDeck, kravenDeck, villains_lokiDeck, villains_magnetoDeck,
+                      villains_mysterioDeck, mystiqueDeck, sabretoothDeck, villains_ultronDeck, villains_venomDeck}
+
+    local masterminds = {villains_drStrangeDeck, villains_nickFuryDeck, odinDeck, villains_profXDeck}
+
+    local villains = {avengersDeck, defendersDeck, marvelKnightsDeck, spiderFriendsDeck,
+                      uncannyAvengersDeck, uncannyXMenDeck, xMenFirstClassDeck}
+
+    local henchmen = {asgardianWarriorsDeck, copsDeck, multipleManDeck, shieldAssaultSquadDeck}
+
+    local schemes = {"Build an Underground Mega-Vault Prison", "Cage Villains in Power-Suppressing Cells",
+                     "Crown Thor King of Asgard", "Crush Hydra", "Graduation at Xavier's X-Academy",
+                     "Infiltrate the Lair with Spies", "Mass Produce War Machine Armor",
+                     "Resurrect Heroes with the Norn Stones",}
+
+    --villains_setup2 = {playable, masterminds, villains, henchmen, schemes}
+    villains_setup2 = {}
+    villains_setup2.playable = playable
+    villains_setup2.masterminds = masterminds
+    villains_setup2.villains = villains
+    villains_setup2.henchmen = henchmen
+    villains_setup2.schemes = schemes
+
+    startingPositions(villains_setup_table,-14,6)
+
+    bindingsDeck.setName('Bindings')
+    villains_bystandersDeck.setName('Bystanders')
+    commandStrikeDeck.setName('Command Strike')
+    plotTwistDeck.setName('Plot Twist')
+    plotDeck.setName('Plot')
+    hydraOperativeDeck.setName('Hydra Operative')
+    hydraSoldierDeck.setName('Hydra Soldier')
+    newRecruitDeck.setName('New Recruits')
+    madameHydraDeck.setName('Madame Hydra')
+    shieldAssaultSquadDeck.setName('S.H.I.E.L.D. Assault Squad')
+    multipleManDeck.setName('Multiple Man')
+    copsDeck.setName('Cops')
+    asgardianWarriorsDeck.setName('Asgardian Warriors')
+    xMenFirstClassDeck.setName('X-Men First Class')
+    uncannyXMenDeck.setName('Uncanny X-Men')
+    uncannyAvengersDeck.setName('Uncanny Avengers')
+    spiderFriendsDeck.setName('Spider Friends')
+    marvelKnightsDeck.setName('Marvel Knights')
+    defendersDeck.setName('Defenders')
+    avengersDeck.setName('Avengers')
+    villains_profXDeck.setName('Professor X')
+    odinDeck.setName('Odin')
+    villains_nickFuryDeck.setName('Nick Fury')
+    villains_drStrangeDeck.setName('Dr. Strange')
+    villains_venomDeck.setName('Venom')
+    villains_ultronDeck.setName('Ultron')
+    sabretoothDeck.setName('Sabretooth')
+    mystiqueDeck.setName('Mystique')
+    villains_mysterioDeck.setName('Mysterio')
+    villains_magnetoDeck.setName('Magneto')
+    villains_lokiDeck.setName('Loki')
+    kravenDeck.setName('Kraven')
+    kingpinDeck.setName('Kingpin')
+    juggernautDeck.setName('Juggernaut')
+    greenGoblinDeck.setName('Green Goblin')
+    enchantressDeck.setName('Enchantress')
+    electroDeck.setName('Electro')
+    drOctopusDeck.setName('Dr. Octopus')
+    bullseyeDeck.setName('Bullseye')
+    villains_bag.setName('Villains Set')
+    villains_rules.setName('Villains Rules')
+--]]
+end
+
+function startingPositions(passedTable,xloc,zloc)
+    for i=1,tableLength(passedTable) do
+        passedTable[i].setLock(true)
+        passedTable[i].setLock(false)
+        --passedTable[i].setRotationSmooth({0,180,0},true,true)
+        passedTable[i].setPosition({xloc,2*i-1,zloc})
+    end
+end
+
+--function to count number of items in a table
+function tableLength(T)
+  local count = 0
+  for _ in pairs(T) do count = count + 1 end
+  return count
+end
+
+--sorted pairs
+function spairs(t, order)
+    -- collect the keys
+    local keys = {}
+    for k in pairs(t) do keys[#keys+1] = k end
+
+    -- if order function given, sort by it by passing the table and keys a, b,
+    -- otherwise just sort the keys 
+    if order then
+        table.sort(keys, function(a,b) return order(t, a, b) end)
+    else
+        table.sort(keys)
+    end
+
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
+end
+
+--function to see if element is in a table
+function table.contains(table, element)
+  for _, value in pairs(table) do
+    if value == element then
+      return true
+    end
+  end
+  return false
+end
+
+-- get index of value in a table
+function returnIndex(tab,value)
+    local index={}
+    for k,v in pairs(tab) do
+        index[v]=k
+    end
+    return index[value]
+end
+
+randomizeButtonClicked = false
+function buttonClicked()
+    if table.contains(version_table,true)==false then printToAll("Please select at least one set.")
+        randomizeButtonClicked=false
+    else randomizeSetup(version_table);randomizeButtonClicked=true end
+end
+hidden = true
+function buttonClicked2()
+    if hidden==false then
+        UI.hide("uipanels1");UI.hide("uipanels2");UI.hide("uipanels3");UI.hide("uipanels4")
+        hidden = true
+        --blank_tile.editButton({index=0, label="\u{25A0} Show Panel"})
+        hcard.editButton({index=0, label="Show Panel"})
+    else
+        UI.show("uipanels1");UI.show("uipanels2");UI.show("uipanels3");UI.show("uipanels4")
+        hidden=false
+        --blank_tile.editButton({index=0, label = "Hide Panel"})
+        hcard.editButton({index=0, label="Hide Panel"})
+    end
+end
+function toggleCustomPanel()
+    if hidden==false then
+        UI.hide("uipanels")
+        hidden = true
+        --blank_tile.editButton({index=0, label="\u{25A0} Show Panel"})
+        --hcard.editButton({index=0, label="Show Panel"})
+    else
+        UI.show("uipanels")
+        hidden = false
+        --blank_tile.editButton({index=0, label = "Hide Panel"})
+        --hcard.editButton({index=0, label="Hide Panel"})
+    end
+end
+
+version_table = {true,true}
+
+function baseSetSelection(player,value)
+    if value=="False" then version_table[1]=false
+    else version_table[1]=true end
+end
+function villainsSelection(player,value)
+    if value=="False" then version_table[2]=false
+    else version_table[2]=true end
+end
+function coreSetSelection()
+    if version_table[1]==true then
+        version_table[1]=false;hcard.editButton({index=6,label="\u{25A1}  Base Set"})
+    else version_table[1]=true;hcard.editButton({index=6,label="\u{25A0}  Base Set"}) end
+end
+function villainsSetSelection()
+    if version_table[2]==true then
+        version_table[2]=false;hcard.editButton({index=7,label="\u{25A1}  Villains"})
+    else version_table[2]=true;hcard.editButton({index=7,label="\u{25A0}  Villains"}) end
+end
+
+numPlayers = nil
+function numPlayerToggle1 (player,value)
+    --if value=="True" then numPlayers=1 end
+    numPlayers = 1; hcard.editButton({index=1,label="\u{25A0} 1"})
+    hcard.editButton({index=2,label="\u{25A1} 2"});hcard.editButton({index=3,label="\u{25A1} 3"})
+    hcard.editButton({index=4,label="\u{25A1} 4"});hcard.editButton({index=5,label="\u{25A1} 5"})
+end
+function numPlayerToggle2 (player,value)
+    --if value=="True" then numPlayers=2 end
+    numPlayers = 2; hcard.editButton({index=2,label="\u{25A0} 2"})
+    hcard.editButton({index=1,label="\u{25A1} 1"});hcard.editButton({index=3,label="\u{25A1} 3"})
+    hcard.editButton({index=4,label="\u{25A1} 4"});hcard.editButton({index=5,label="\u{25A1} 5"})
+end
+function numPlayerToggle3 (player,value)
+    --if value=="True" then numPlayers=3 end
+    numPlayers = 3; hcard.editButton({index=3,label="\u{25A0} 3"})
+    hcard.editButton({index=1,label="\u{25A1} 1"});hcard.editButton({index=2,label="\u{25A1} 2"})
+    hcard.editButton({index=4,label="\u{25A1} 4"});hcard.editButton({index=5,label="\u{25A1} 5"})
+end
+function numPlayerToggle4 (player,value)
+    --if value=="True" then numPlayers=4 end
+    numPlayers = 4; hcard.editButton({index=4,label="\u{25A0} 4"})
+    hcard.editButton({index=1,label="\u{25A1} 1"});hcard.editButton({index=2,label="\u{25A1} 2"})
+    hcard.editButton({index=3,label="\u{25A1} 3"});hcard.editButton({index=5,label="\u{25A1} 5"})
+end
+function numPlayerToggle5 (player,value)
+    --if value=="True" then numPlayers=5 end
+    numPlayers = 5; hcard.editButton({index=5,label="\u{25A0} 5"})
+    hcard.editButton({index=1,label="\u{25A1} 1"});hcard.editButton({index=2,label="\u{25A1} 2"})
+    hcard.editButton({index=3,label="\u{25A1} 3"});hcard.editButton({index=4,label="\u{25A1} 4"})
+end
+
+function retrieveDeck (chosen, pvec, rvec) -- chosen is table with guids as keys, version as values
+    local temp_bag = 1
+    local take_params = {position=pvec, rotation=rvec, smooth=false}
+    for k,v in pairs(chosen) do
+        if v=="Base" then temp_bag=core_bag else temp_bag=villains_bag end
+        take_params.guid = k
+        temp_bag.takeObject(take_params)
+    end
+end
+
+function clearTable(obj,player_clicker_color,alt_click)
+    if alt_click==false then
+        for k,v in pairs(getAllObjects()) do
+            temp_obj = getAllObjects()[k]
+            if table.contains(startGUIDs,temp_obj.getGUID())==false then destroyObject(temp_obj) end
+            cards_out=false
+            hcard.editButton({index=9,label="Run Setup",tooltip="",click_function="run_clear_setup"})
+            dontrun=true
+        end
+    else hcard.editButton({index=9,label="Clear Setup",tooltip="",click_function="changeName"}) end
+end
+
+-- for changing name of clear button
+function changeName(obj,player_clicker_color,alt_click)
+    hcard.editButton({index=9,label = "Click again to clear",tooltip = "Right click to cancel",
+                      click_function="clearTable"})
+end
+
+cards_out = false -- keep track if cards are out on the table
+function run_clear_setup()
+    if cards_out==false then
+        if randomizeButtonClicked==false then printToAll("Please randomize setup.")
+        elseif version_table[1]==false and version_table[2]==false then printToAll("Please select the Base Set or Villains Set.")
+        else
+            schemeZone = spawnObject({type="ScriptingTrigger",position={-7.55,1,4.15},scale={2.5,2,3.5}})
+            for k,v in pairs(chosenScheme) do
+                if v=="Villains" then villainsLoc = {-1.25,1.1,0}; escapeLoc = {16,1,0}
+                    local hydraOpName = {}; hydraOpName["Hydra Operative"] = "Villains"
+                    local hydraOpGUID = {}; hydraOpGUID[obtainGUID(hydraOpName)] = "Villains"
+                    retrieveDeck(hydraOpGUID,{-17,1.1,-4.75},{0,180,0})
+                    local hydraSolName = {}; hydraSolName["Hydra Soldier"] = "Villains"
+                    local hydraSolGUID = {}; hydraSolGUID[obtainGUID(hydraSolName)] = "Villains"
+                    retrieveDeck(hydraSolGUID,{-14,1.1,-4.75},{0,180,0})
+                else villainsLoc = {16,1.1,0}; escapeLoc = {-1.25,1,0}
+                    local shieldAgName = {}; shieldAgName["S.H.I.E.L.D. Agent"] = "Base"
+                    local shieldAgGUID = {}; shieldAgGUID[obtainGUID(shieldAgName)] = "Base"
+                    retrieveDeck(shieldAgGUID,{-17,1.1,-4.75},{0,180,0})
+                    local shieldTrName = {}; shieldTrName["S.H.I.E.L.D. Trooper"] = "Base"
+                    local shieldTrGUID = {}; shieldTrGUID[obtainGUID(shieldTrName)] = "Base"
+                    retrieveDeck(shieldTrGUID,{-14,1.1,-4.75},{0,180,0})
+                end end
+            retrieveDeck(schemeGUID,{-7.55,1.1,4.15},{180,0,0})
+            Wait.frames(function() local temp_deck = findDeckInZone(schemeZone); local temp_guid=1
+                            for i,v in ipairs(temp_deck.getObjects()) do
+                                if v.name==scheme then temp_guid=v.guid end
+                            end
+                            local take_params = {guid=temp_guid, position={-7.55,1.1,4.15}, rotation={0,180,0}, smooth=false}
+                            temp_deck.takeObject(take_params);temp_deck.destroyObject()
+            end, 5)
+
+            mastermindZone = spawnObject({type="ScriptingTrigger",position={-7.55,1,0},scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            retrieveDeck(mastermindGUID,{-7.55,1.1,0},{0,180,0})
+            local mastermind_take_params = {position={-7.55,3,0},top=true,smooth=false}
+            Wait.frames(function() local temp_deck = findDeckInZone(mastermindZone)
+                            temp_deck.takeObject(mastermind_take_params)
+                            temp_deck = findDeckInZone(mastermindZone)
+                            temp_deck.setRotationSmooth({180,0,0},false,true);temp_deck.shuffle() end,10)
+
+            heroZone = spawnObject({type="ScriptingTrigger",position={16,1,-4.75},scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            retrieveDeck(playableGUIDs,{16,1.1,-4.75},{180,0,0})
+
+            --testZone = spawnObject({type="ScriptingTrigger",position={-10.75,1,0},scale={2.5,2,3.5}})
+
+            dealtHero = {}
+            Wait.frames(function() local temp_obj = findDeckInZone(heroZone)
+                            temp_obj.shuffle();temp_obj.setName("Heroes/Allies")
+                        Wait.frames(function() 
+                            if chScheme=="Secret Invasion Of The Skrull Shapeshifters" then
+                                for i=1,12 do temp_obj.takeObject({position={16,1.1,0},smooth=false}) end end
+                            for i=1,5 do temp_obj.takeObject({position={2.7*i - 0.7,1.1,-4.4},rotation={0,180,0},
+                                callback_function = function(obj) storeDealtHero(obj) end}) end end,2)
+            end,5)
+            Wait.time(function() dontrun=false end,2)
+            hqZone1 = spawnObject({type="ScriptingTrigger",position={2.7*1-0.7,1,-4.4},scale={2.7,1,4.2}})
+            hqZone2 = spawnObject({type="ScriptingTrigger",position={2.7*2-0.7,1,-4.4},scale={2.7,1,4.2}})
+            hqZone3 = spawnObject({type="ScriptingTrigger",position={2.7*3-0.7,1,-4.4},scale={2.7,1,4.2}})
+            hqZone4 = spawnObject({type="ScriptingTrigger",position={2.7*4-0.7,1,-4.4},scale={2.7,1,4.2}})
+            hqZone5 = spawnObject({type="ScriptingTrigger",position={2.7*5-0.7,1,-4.4},scale={2.7,1,4.2}})
+
+            bridgeZone = spawnObject({type="ScriptingTrigger",position={2.7*1-0.7,1,0.05},scale={2.7,1,4.2},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            streetsZone = spawnObject({type="ScriptingTrigger",position={2.7*2-0.7,1,0.05},scale={2.7,1,4.2},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            rooftopsZone = spawnObject({type="ScriptingTrigger",position={2.7*3-0.7,1,0.05},scale={2.7,1,4.2},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            bankZone = spawnObject({type="ScriptingTrigger",position={2.7*4-0.7,1,0.05},scale={2.7,1,4.2},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            sewersZone = spawnObject({type="ScriptingTrigger",position={2.7*5-0.7,1,0.05},scale={2.7,1,4.2},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+
+            villainsZone = spawnObject({type="ScriptingTrigger",position=villainsLoc,scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            escapeZone = spawnObject({type="ScriptingTrigger",position=escapeLoc,scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            retrieveDeck(villainsGUIDs,villainsLoc,{180,0,0})
+            retrieveDeck(henchmenGUIDs,villainsLoc,{180,0,0})
+            -- strikes
+            local strikeZone = spawnObject({type="ScriptingTrigger",position={-4.4,1,0},scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            for k,v in pairs(chosenMastermind) do
+                local temp_ch = {}; local temp_guid = {}
+                if v=="Villains" then temp_ch["Command Strike"] = "Villains"
+                    temp_guid[obtainGUID(temp_ch)] = "Villains"
+                    retrieveDeck(temp_guid,villainsLoc,{180,0,0})
+                else temp_ch["Master Strike"] = "Base"; temp_guid[obtainGUID(temp_ch)] = "Base"
+                    retrieveDeck(temp_guid,villainsLoc,{180,0,0})
+                end
+            end
+            -- twists
+            local twistZone = spawnObject({type="ScriptingTrigger",position={-4.4,1,4.15},scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            for k,v in pairs(schemeGUID) do
+                local temp_ch = {}; local temp_guid = {}
+                if v=="Villains" then temp_ch["Plot Twist"] = "Villains"; temp_guid[obtainGUID(temp_ch)]="Villains"
+                    retrieveDeck(temp_guid,villainsLoc,{180,0,0})
+                else temp_ch["Scheme Twist"] = "Base"; temp_guid[obtainGUID(temp_ch)]="Base"
+                    retrieveDeck(temp_guid,{-4.4,1,4.15},{180,0,0})
+                    Wait.frames(function() local temp_deck = findDeckInZone(twistZone)
+                            new_decks = temp_deck.cut(3)
+                        Wait.frames(function() new_decks[2].destroyObject() --end,1) end, 1)
+                    if numTwists[1]==8 then new_decks[1].setPositionSmooth(villainsLoc,false,true)
+                    elseif numTwists[2] ~= nil then
+                        local temp = new_decks[1].cut(numTwists[2])
+                        Wait.frames(function() temp[1].setPositionSmooth(villainsLoc,false,true)
+                            temp[2].setRotationSmooth({0,180,0},false,true) end,2)
+                    else --numTwists[1] < 8 then
+                        local take_params = {position={0,0,0},
+                            callback_function = function(obj) obj.destroyObject() end}
+                        for i = 1,(8-numTwists[1]) do new_decks[1].takeObject(take_params) end
+                        Wait.frames(function() new_decks[1].setPositionSmooth(villainsLoc,false,true) end,2)
+                    end
+                    end,1) end, 1)
+                end
+            end
+
+            bystandersZone = spawnObject({type="ScriptingTrigger",position={-1.25,1,4.15},scale={2.5,2,3.5}})
+            if version_table[1]==true then
+                shieldZone = spawnObject({type="ScriptingTrigger",position={-7.55,1,-4.75},scale={2.5,2,3.5},
+                    callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+                local shieldName = {}; shieldName["S.H.I.E.L.D. Officer"] = "Base"
+                local shieldGUID = {}; shieldGUID[obtainGUID(shieldName)] = "Base"
+                retrieveDeck(shieldGUID,{-7.55,1.1,-4.75},{0,180,0})
+                --Wait.frames(function() findDeckInZone(shieldZone).shuffle() end,10)
+                woundsZone = spawnObject({type="ScriptingTrigger",position={16,1,4.15},scale={2.5,2,3.5},
+                    callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+                local woundName = {}; woundName["Wound"] = "Base"
+                local woundGUID = {}; woundGUID[obtainGUID(woundName)] = "Base"
+                retrieveDeck(woundGUID,{16,1.1,4.15},{0,180,0})
+                if numWounds < 30 then Wait.frames(function() local temp_deck = findDeckInZone(woundsZone)
+                        local new_decks = temp_deck.cut(30-numWounds)
+                        Wait.frames(function() new_decks[2].destroyObject() end,2) end,5) end
+                local bystanderName = {}; bystanderName["Bystander"] = "Base"
+                local bystanderGUID = {}; bystanderGUID[obtainGUID(bystanderName)] = "Base"
+                retrieveDeck(bystanderGUID,{-1.25,1.1,4.15},{180,0,0})
+            end
+            if version_table[2]==true then
+                madameHydraZone = spawnObject({type="ScriptingTrigger",position={-4.4,1,-4.75},scale={2.5,2,3.5},
+                    callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+                local madameHydraName = {}; madameHydraName["Madame Hydra"] = "Villains"
+                local madameHydraGUID = {}; madameHydraGUID[obtainGUID(madameHydraName)] = "Villains"
+                retrieveDeck(madameHydraGUID,{-4.4,1.1,-4.75},{0,180,0})
+                Wait.frames(function() findDeckInZone(madameHydraZone).shuffle() end,10)
+                newRecruitsZone = spawnObject({type="ScriptingTrigger",position={-1.25,1,-4.75},scale={2.5,2,3.5},
+                    callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+                local newRecruitsName = {}; newRecruitsName["New Recruits"] = "Villains"
+                local newRecruitsGUID = {}; newRecruitsGUID[obtainGUID(newRecruitsName)] = "Villains"
+                retrieveDeck(newRecruitsGUID,{-1.25,1.1,-4.75},{0,180,0})
+                Wait.frames(function() findDeckInZone(newRecruitsZone).shuffle() end,10)
+                bindingsZone = spawnObject({type="ScriptingTrigger",position={12.85,1,4.15},scale={2.5,2,3.5},
+                    callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+                local bindingsName = {}; bindingsName["Bindings"] = "Villains"
+                local bindingsGUID = {}; bindingsGUID[obtainGUID(bindingsName)] = "Villains"
+                retrieveDeck(bindingsGUID,{12.85,1.1,4.15},{0,180,0})
+                if numBindings < 30 then Wait.frames(function() local temp_deck = findDeckInZone(bindingsZone)
+                        local new_decks = temp_deck.cut(30-numBindings)
+                        Wait.frames(function() new_decks[2].destroyObject() end,2) end,5) end
+                local bystanderName = {}; bystanderName["Bystander"] = "Villains"
+                local bystanderGUID = {}; bystanderGUID[obtainGUID(bystanderName)] = "Villains"
+                retrieveDeck(bystanderGUID,{-1.25,1.1,4.15},{180,0,0})
+            end
+            -- shuffle bystanders
+            Wait.frames(function() local temp_deck = findDeckInZone(bystandersZone);temp_deck.shuffle() end,2)
+            -- add bystanders to villains/adversaries deck
+            Wait.frames(function() local temp_deck = findDeckInZone(bystandersZone)
+                for i = 1,numBystanders[1] do temp_deck.takeObject({position=villainsLoc,smooth=false}) end end,2)
+            Wait.frames(function() local temp_deck = findDeckInZone(villainsZone)
+                            temp_deck.shuffle();temp_deck.setName("Villains/Adversaries") end, 120)
+
+            extraTwistZone = spawnObject({type="ScriptingTrigger",position={-10.75,1,4.15},scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+            if scheme == "Cage Villains In Power-Suppressing Cells" then
+                local copsName = {}; copsName["Cops"] = "Villains"
+                local copsGUID = {}; copsGUID[obtainGUID(copsName)] = "Villains"
+                retrieveDeck(copsGUID,{-10.75,1.1,4.15},{0,180,0})
+                if numPlayers < 5 then Wait.frames(function() local temp_deck = findDeckInZone(extraTwistZone)
+                        local new_decks = temp_deck.cut(10-(2*numPlayers))
+                        Wait.frames(function() new_decks[2].destroyObject() end,2) end,10) end
+            end
+
+            snapPointTable = {{position = {0,0,0}, rotation = {0,0,0}, rotation_snap = false},
+                              {position = {0,0,0}, rotation = {0,0,0}, rotation_snap = false}}
+            extraMastermindZone = spawnObject({type="ScriptingTrigger",position={-10.75,1,0},scale={2.5,2,3.5},
+                callback_function = function(obj) obj.setSnapPoints(snapPointTable) end})
+
+            Wait.frames(function() if numBystanders[2] ~= nil then local temp_deck = findDeckInZone(bystandersZone)
+                for i=1,numBystanders[2] do temp_deck.takeObject({position={-10.75,1.1,4.15},rotation={0,180,0},smooth=false}) end end end,60)
+
+            Wait.frames(function() if scheme=="Crown Thor King Of Asgard" then
+                                       if table.contains(villainsNames,"Avengers")==true then
+                                           local temp_deck = findDeckInZone(villainsZone);local temp_guid=1
+                                           for i,v in ipairs(temp_deck.getObjects()) do
+                                               if v.name=="Thor" then temp_guid=v.guid end
+                                           end
+                                           local take_params = {guid=temp_guid, position={-10.75,1.1,4.15}, rotation={0,180,0}, smooth=false}
+                                           temp_deck.takeObject(take_params)
+                                       else
+                                           local deckName = {}; deckName["Avengers"] = "Villains"
+                                           local deckGUID = {}; deckGUID[obtainGUID(deckName)] = "Villains"
+                                           retrieveDeck(deckGUID,{-10.75,1.1,4.15},{180,0,0})
+                                           Wait.frames(function() local temp_deck = findDeckInZone(extraTwistZone);local temp_guid=1
+                                               for i,v in ipairs(temp_deck.getObjects()) do
+                                                   if v.name=="Thor" then temp_guid=v.guid end
+                                               end
+                                               local take_params = {guid=temp_guid, position={-10.75,1.1,4.15}, rotation={0,180,0}, smooth=false}
+                                               temp_deck.takeObject(take_params);temp_deck.destroyObject()
+                                           end, 5)
+                                       end
+                                   end
+            end, 10)
+
+            cards_out=true
+            hcard.editButton({index=9,label = "Clear Setup",click_function = "changeName"})
+        end
+    end
+end
+
+function storeDealtHero(obj)
+    table.insert(dealtHero,obj.getGUID())
+end
+function removeDealtHero(obj)
+    local obj_ind = nil
+    for i,v in ipairs(dealtHero) do
+        if v==obj.getGUID() then obj_ind=i end
+    end
+    table.remove(dealtHero,obj_ind)
+end
+
+function findDeckInZone(zone)
+    local objectsInZone = zone.getObjects()
+    for i, object in ipairs(objectsInZone) do
+        if object.tag == "Deck" then
+            return object
+        end
+    end
+    return nil
+end
+
+-- if pick up card at all then goes out of zone and will call replacement
+-- should instead players are allowed to hold card?
+function replaceRecruited(xloc,yloc,zloc)
+    local objectsInZone = heroZone.getObjects()
+    for i, object in ipairs(objectsInZone) do
+        if object.tag == "Deck" then
+            object.takeObject({position={xloc,yloc,zloc},rotation={0,180,0},
+                callback_function = function(obj) storeDealtHero(obj) end})
+        end
+        if object.tag == "Card" then
+            object.setPositionSmooth({xloc,yloc,zloc},false,false)
+            object.setRotationSmooth({0,180,0},true,true)
+        end
+    end
+end
+
+function onObjectLeaveScriptingZone(zone,obj)
+    local heroDeck = findDeckInZone(heroZone)
+    if dontrun==false then
+        if table.contains(dealtHero,obj.getGUID()) then
+--[[
+        if zone==hqZone1 then dontrun=true;Wait.time(function() heroDeck.takeObject({position={2.7*1-0.7,1.5,-4.4},
+            rotation={0,180,0},callback_function = function(obj) storeDealtHero(obj) end})
+            --Wait.time(function() dontrun=false; removeDealtHero(obj) end,1) end, 0.5) end
+            Wait.time(function() dontrun=false end,1) end, 0.5) end
+--]]
+        if zone==hqZone1 then dontrun=true;Wait.time(function() replaceRecruited(2.7*1-0.7,1.5,-4.4)
+            Wait.time(function() dontrun=false end,1) end, 0.5) end
+        if zone==hqZone2 then dontrun=true;Wait.time(function() replaceRecruited(2.7*2-0.7,1.5,-4.4)
+            Wait.time(function() dontrun=false end,1) end, 0.5) end
+        if zone==hqZone3 then dontrun=true;Wait.time(function() replaceRecruited(2.7*3-0.7,1.5,-4.4)
+            Wait.time(function() dontrun=false end,1) end, 0.5) end
+        if zone==hqZone4 then dontrun=true;Wait.time(function() replaceRecruited(2.7*4-0.7,1.5,-4.4)
+            Wait.time(function() dontrun=false end,1) end, 0.5) end
+        if zone==hqZone5 then dontrun=true;Wait.time(function() replaceRecruited(2.7*5-0.7,1.5,-4.4)
+            Wait.time(function() dontrun=false end,1) end, 0.5) end
+        end
+    end
+end
+
+function commandStrike_callback(obj,num)
+    local cut_decks = obj.cut(num)
+    Wait.frames(function() cut_decks[1].destroyObject();findDeckInZone(villainsZone).putObject(cut_decks[2]) end,5)
+end
+
+--[[
+function testShuffle()
+    local obj = mastermindZone.getObjects()
+    for i,v in ipairs(obj) do v.shuffle() end
+end
+--]]
+
+function obtainGUID(chosen) -- chosen is table with name as keys and version as value
+    local temp_bag = 1
+    local temp_guid = 1
+    for k,v in pairs(chosen) do
+        if v=="Base" then temp_bag = core_bag else temp_bag = villains_bag end
+        for i,v1 in ipairs(temp_bag.getObjects()) do if v1.name==k then temp_guid = v1.guid end end
+    end
+    return temp_guid
+end
+
+function randomizeSetup(selection_table)
+    -- plot takes priority over commander
+    math.randomseed(os.time()+math.random(10000))
+    math.random();math.random();math.random()
+
+    if numPlayers==nil then numPlayers=tableLength(getSeatedPlayers())
+        if numPlayers > 5 then numPlayers=5 end end
+    if numPlayers==1 then hcard.editButton({index=1,label="\u{25A0} 1"})
+    elseif numPlayers==2 then hcard.editButton({index=2,label="\u{25A0} 2"})
+    elseif numPlayers==3 then hcard.editButton({index=3,label="\u{25A0} 3"})
+    elseif numPlayers==4 then hcard.editButton({index=4,label="\u{25A0} 4"})
+    else hcard.editButton({index=5,label="\u{25A0} 5"}) end
+
+    local allVersions = {core_setup2,villains_setup2}
+    local allVersionsNames = {"Base", "Villains"}
+    local versions = {}
+    local versionsNames = {}
+    local versionsLong = {}
+--[[
+    for i=1,tableLength(version_table) do
+        if version_table[i]==true then table.insert(versions,allVersions[i])
+            table.insert(versionsNames, allVersionsNames[i]) end
+    end
+--]]
+    if version_table[1]==true then versions["Base"] = core_setup2; table.insert(versionsNames,"Base") end
+    if version_table[2]==true then versions["Villains"] = villains_setup2; table.insert(versionsNames,"Villains") end
+    local numVersions = tableLength(versions)
+    
+    printToAll("")
+    -- Scheme
+    chosenScheme = {} -- name as key, version as value
+    schemeGUID = {} -- guid as key, version as value
+    local ind1 = math.random(numVersions)
+    local temp_version = "test"
+    temp_version = versionsNames[ind1]
+    local ind2 = math.random(tableLength(versions[temp_version]["schemes"]))
+    scheme = versions[temp_version]["schemes"][ind2]
+    if temp_version=="Villains" then chosenScheme["Plot"] = "Villains" else chosenScheme["Scheme"] = "Base" end
+    if temp_version=="Villains" then schemeGUID[obtainGUID(chosenScheme)] = "Villains"
+    else schemeGUID[obtainGUID(chosenScheme)] = "Base" end
+    local schemeString = "Scheme: "..scheme
+    printToAll(schemeString)
+    scheme_notes(scheme)
+
+
+    --Mastermind
+    chosenMastermind = {} -- name as key, version as value
+    mastermindGUID = {} -- guid as key, version as value
+    local ind1 = math.random(numVersions)
+    local temp_version = "test"
+    temp_version = versionsNames[ind1]
+    local ind2 = math.random(tableLength(versions[temp_version]["masterminds"]))
+    local mastermind = versions[temp_version]["masterminds"][ind2]
+    chosenMastermind[mastermind] = temp_version
+    mastermindGUID[obtainGUID(chosenMastermind)] = temp_version
+    local mastermindString = "Mastermind/Commander: "..mastermind
+    printToAll(mastermindString)
+
+
+    --Villains
+    local numVillains = 3
+    if numPlayers == 1 then numVillains=1
+    elseif numPlayers == 2 then numVillains=2
+    elseif numPlayers == 3 then numVillains=3
+    elseif numPlayers == 4 then numVillains=3
+    else numVillains=4 end
+    local chosenVillains = {} -- name as key, version as value
+    villainsGUIDs = {} -- guids as key, version as value
+    villainsNames = {} -- index as key, name as value
+
+    if scheme=="Secret Invasion Of The Skrull Shapeshifters" then chosenVillains["Skrulls"]="Base"
+        villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {}; table.insert(villainsNames,"Skrulls")
+        if numVillains>1 then
+            if mastermind=="Loki" then chosenVillains["Enemies Of Asgard"]="Base"; table.insert(villainsNames,"Enemies Of Asgard")
+                villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {} end
+            if mastermind=="Magneto" then chosenVillains["Brotherhood"]="Base"; table.insert(villainsNames,"Brotherhood")
+                villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {} end
+            if mastermind=="Red Skull" then chosenVillains["Hydra"]="Base"; table.insert(villainsNames,"Hydra")
+                villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {} end
+            if mastermind=="Dr. Strange" then chosenVillains["Defenders"]="Villains"; table.insert(villainsNames,"Defenders")
+                villainsGUIDs[obtainGUID(chosenVillains)] = "Villains"; chosenVillains = {} end
+            if mastermind=="Nick Fury" then chosenVillains["Avengers"]="Villains"; table.insert(villainsNames,"Avengers")
+                villainsGUIDs[obtainGUID(chosenVillains)] = "Villains"; chosenVillains = {} end
+            if mastermind=="Professor X" then chosenVillains["X-Men First Class"]="Villains"; table.insert(villainsNames,"X-Men First Class")
+                villainsGUIDs[obtainGUID(chosenVillains)] = "Villains"; chosenVillains = {} end
+            for i=(tableLength(villainsGUIDs)+1), numVillains do
+                local ind1 = math.random(numVersions);local temp_version = "test";temp_version = versionsNames[ind1]
+                local ind2 = math.random(tableLength(versions[temp_version]["villains"]))
+                chosenVillains[versions[temp_version]["villains"][ind2]] = temp_version
+                local duplicated = villainsGUIDs[obtainGUID(chosenVillains)]
+                while duplicated ~= nil do
+                    chosenVillains = {}
+                    temp_version = "test"; if ind1==1 then temp_version = "Base" else temp_version = "Villains" end
+                    ind2 = math.random(tableLength(versions[temp_version]["villains"]))
+                    chosenVillains[versions[temp_version]["villains"][ind2]] = temp_version
+                    duplicated = villainsGUIDs[obtainGUID(chosenVillains)]
+                end
+                villainsGUIDs[obtainGUID(chosenVillains)] = temp_version; chosenVillains = {}
+                table.insert(villainsNames, versions[temp_version]["villains"][ind2])
+            end
+        end
+    else
+        if mastermind=="Loki" then chosenVillains["Enemies Of Asgard"]="Base"; table.insert(villainsNames,"Enemies Of Asgard")
+            villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {} end
+        if mastermind=="Magneto" then chosenVillains["Brotherhood"]="Base"; table.insert(villainsNames,"Brotherhood")
+            villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {} end
+        if mastermind=="Red Skull" then chosenVillains["Hydra"]="Base"; table.insert(villainsNames,"Hydra")
+            villainsGUIDs[obtainGUID(chosenVillains)] = "Base"; chosenVillains = {} end
+        if mastermind=="Dr. Strange" then chosenVillains["Defenders"]="Villains"; table.insert(villainsNames,"Defenders")
+            villainsGUIDs[obtainGUID(chosenVillains)] = "Villains"; chosenVillains = {} end
+        if mastermind=="Nick Fury" then chosenVillains["Avengers"]="Villains"; table.insert(villainsNames,"Avengers")
+            villainsGUIDs[obtainGUID(chosenVillains)] = "Villains"; chosenVillains = {} end
+        if mastermind=="Professor X" then chosenVillains["X-Men First Class"]="Villains"; table.insert(villainsNames,"X-Men First Class")
+            villainsGUIDs[obtainGUID(chosenVillains)] = "Villains"; chosenVillains = {} end
+        for i=(tableLength(villainsGUIDs)+1), numVillains do
+            local ind1 = math.random(numVersions);local temp_version = "test";temp_version = versionsNames[ind1]
+            local ind2 = math.random(tableLength(versions[temp_version]["villains"]))
+            chosenVillains[versions[temp_version]["villains"][ind2]] = temp_version
+            local duplicated = villainsGUIDs[obtainGUID(chosenVillains)]
+            while duplicated ~= nil do
+                chosenVillains = {}
+                ind1 = math.random(numVersions);temp_version = "test";temp_version = versionsNames[ind1]
+                ind2 = math.random(tableLength(versions[temp_version]["villains"]))
+                chosenVillains[versions[temp_version]["villains"][ind2]] = temp_version
+                duplicated = villainsGUIDs[obtainGUID(chosenVillains)]
+            end
+            villainsGUIDs[obtainGUID(chosenVillains)] = temp_version; chosenVillains = {}
+            table.insert(villainsNames, versions[temp_version]["villains"][ind2])
+        end
+    end
+    -- print villains in alphabetical order
+    local chosenVs = {} -- name as key, index as value
+    for k,v in ipairs(villainsNames) do chosenVs[v]=k end
+    sortedVillains = ""
+    for k,v in spairs(chosenVs) do sortedVillains = sortedVillains..k..", " end
+    sortedVillains = sortedVillains:sub(1, #sortedVillains - 2)
+    villainsString = "Villains/Adversaries: "..sortedVillains
+    printToAll(villainsString)
+
+
+    -- Henchmen
+    local versionsHenchmen = {}
+    local versionsHenchmenNames = {}
+    if version_table[1]==true then versionsHenchmen["Base"] = versions["Base"]["henchmen"]
+        table.insert(versionsHenchmenNames,"Base") end
+    if version_table[2]==true then versionsHenchmen["Villains"] = versions["Villains"]["henchmen"]
+        table.insert(versionsHenchmenNames,"Villains") end
+    local numHenchmen = 2
+    if numPlayers == 1 then numHenchmen=1
+    elseif numPlayers == 2 then numHenchmen=1
+    elseif numPlayers == 3 then numHenchmen=1
+    elseif numPlayers == 4 then numHenchmen=2
+    else numHenchmen=2 end
+    if scheme=="Negative Zone Prison Breakout" then numHenchmen=numHenchmen+1 end
+    local chosenHenchmen = {}
+    henchmenGUIDs = {}
+    henchmenNames = {}
+    if scheme=="Cage Villains in Power-Suppressing Cells" then
+        local cops_ind = nil
+        for i,v in ipairs(versionsHenchmen["Villains"]) do
+            if v.name=="Cops" then cops_ind=i end
+        end
+        table.remove(versionsHenchmen["Villains"],cops_ind)
+    end
+    if scheme=="Mass Produce War Machine Armor" then chosenHenchmen["S.H.I.E.L.D. Assault Squad"]="Villains"
+        henchmenGUIDs[obtainGUID(chosenHenchmen)]="Villains"; chosenHenchmen={}; table.insert(henchmenNames,"S.H.I.E.L.D. Assault Squad")
+        if numHenchmen>1 then
+            if mastermind=="Odin" then chosenHenchmen["Asgardian Warriors"]="Villains"; table.insert(henchmenNames,"Asgardian Warriors")
+                henchmenGUIDs[obtainGUID(chosenHenchmen)]="Villains"; chosenHenchmen={} end
+            if mastermind=="Dr. Doom" then chosenHenchmen["Doombot Legion"]="Base"; table.insert(henchmenNames,"Doombot Legion")
+                henchmenGUIDs[obtainGUID(chosenHenchmen)]="Base"; chosenHenchmen={} end
+            for i=(tableLength(henchmenGUIDs)+1), numHenchmen do
+                local ind1 = math.random(tableLength(versionsHenchmenNames));local temp_version = "test";temp_version = versionsHenchmenNames[ind1]
+                local ind2 = math.random(tableLength(versionsHenchmen[temp_version]))
+                chosenHenchmen[versionsHenchmen[temp_version][ind2]] = temp_version
+                local duplicated = henchmenGUIDs[obtainGUID(chosenHenchmen)]
+                while duplicated ~= nil do
+                    chosenHenchmen = {}
+                    ind1 = math.random(tableLenght(versionsHenchmenNames)); temp_version="test";temp_version = versionsHenchmenNames[ind1]
+                    ind2 = math.random(tableLength(versionsHenchmen[temp_version]))
+                    chosenHenchmen[versionsHenchmen[temp_version][ind2]] = temp_version
+                    duplicated = henchmenGUIDs[obtainGUID(chosenHenchmen)]
+                end
+                henchmenGUIDs[obtainGUID(chosenHenchmen)] = temp_version; chosenHenchmen = {}
+                table.insert(henchmenNames, versionsHenchmen[temp_version][ind2])
+            end
+        end
+    else
+        if mastermind=="Odin" then chosenHenchmen["Asgardian Warriors"]="Villains"; table.insert(henchmenNames,"Asgardian Warriors")
+            henchmenGUIDs[obtainGUID(chosenHenchmen)]="Villains"; chosenHenchmen={} end
+        if mastermind=="Dr. Doom" then chosenHenchmen["Doombot Legion"]="Base"; table.insert(henchmenNames,"Doombot Legion")
+            henchmenGUIDs[obtainGUID(chosenHenchmen)]="Base"; chosenHenchmen={} end
+        for i=(tableLength(henchmenGUIDs)+1), numHenchmen do
+            local ind1 = math.random(tableLength(versionsHenchmenNames));local temp_version = "test";temp_version = versionsHenchmenNames[ind1]
+            local ind2 = math.random(tableLength(versionsHenchmen[temp_version]))
+            chosenHenchmen[versionsHenchmen[temp_version][ind2]] = temp_version
+            local duplicated = henchmenGUIDs[obtainGUID(chosenHenchmen)]
+            while duplicated ~= nil do
+                chosenHenchmen = {}
+                ind1 = math.random(tableLength(versionsHenchmenNames));temp_version = "test";temp_version = versionsHenchmenNames[ind1]
+                ind2 = math.random(tableLength(versionsHenchmen[temp_version]))
+                chosenHenchmen[versionsHenchmen[temp_version][ind2]] = temp_version
+                duplicated = henchmenGUIDs[obtainGUID(chosenHenchmen)]
+            end
+            henchmenGUIDs[obtainGUID(chosenHenchmen)] = temp_version; chosenHenchmen = {}
+            table.insert(henchmenNames, versionsHenchmen[temp_version][ind2])
+        end
+    end
+    -- print henchmen in alphabetical order
+    local chosenHs = {}
+    for k,v in ipairs(henchmenNames) do chosenHs[v]=k end
+    sortedHenchmen = ""
+    for k,v in spairs(chosenHs) do sortedHenchmen = sortedHenchmen..k..", " end
+    sortedHenchmen = sortedHenchmen:sub(1, #sortedHenchmen - 2) --remove comma and space at end of string
+    henchmenString = "Henchmen/Backup Adversaries: "..sortedHenchmen
+    printToAll(henchmenString)
+
+
+    --Playable characters
+    local numPlayable = 5
+    if numPlayers==1 then numPlayable=3
+    elseif numPlayers==2 then numPlayable=5
+    elseif numPlayers==3 then numPlayable=5
+    elseif numPlayers==4 then numPlayable=5
+    else numPlayable=6 end
+    if scheme=="Secret Invasion of the Skrull Shapeshifters" then numPlayable=6 end
+    if scheme=="Super Hero Civil War" then if numPlayers==2 then numPlayable=4 end end
+    local chosenPlayable = {}
+    playableGUIDs = {}
+    playableNames = {}
+
+    for i=(tableLength(playableGUIDs)+1),numPlayable do
+        local ind1 = math.random(numVersions);local temp_version = "test";temp_version = versionsNames[ind1]
+        local ind2 = math.random(tableLength(versions[temp_version]["playable"]))
+        chosenPlayable[versions[temp_version]["playable"][ind2]] = temp_version
+        local duplicated = playableGUIDs[obtainGUID(chosenPlayable)]
+        while duplicated ~= nil do
+            chosenPlayable = {}
+            ind1 = math.random(numVersions);temp_version = "test";temp_version = versionsNames[ind1]
+            ind2 = math.random(tableLength(versions[temp_version]["playable"]))
+            chosenPlayable[versions[temp_version]["playable"][ind2]] = temp_version
+            duplicated = playableGUIDs[obtainGUID(chosenPlayable)]
+        end
+        playableGUIDs[obtainGUID(chosenPlayable)] = temp_version; chosenPlayable = {}
+        table.insert(playableNames, versions[temp_version]["playable"][ind2])
+    end
+    -- print characters to display in alphabetical order
+    local chosenPs = {}
+    for k,v in ipairs(playableNames) do chosenPs[v]=k end
+    sortedPlayable = ""
+    for k,v in spairs(chosenPs) do sortedPlayable = sortedPlayable..k..", " end
+    sortedPlayable = sortedPlayable:sub(1, #sortedPlayable - 2)
+    playableString = "Heroes/Allies: "..sortedPlayable
+    printToAll(playableString)
+    printToAll("")
+end
+
+function scheme_notes(schm)
+    numTwists = {8}
+    numBystanders = {0}
+    numWounds = 30
+    numBindings = 30
+
+    -- core set
+    if schm=="The Legacy Virus" then
+        printToAll("Setup: 8 Twists. Wound stack holds 6 Wounds per player.");numWounds=6*numPlayers end
+    if schm=="Midtown Bank Robbery" then
+        printToAll("Setup: 8 Twists. 12 total Bystanders in the Villain Deck.");numBystanders[1]=12
+        --printToAll("Special Rules: Each Villain gets +1 Attack for each Bystander it has.")
+    end
+    if schm=="Negative Zone Prison Breakout" then
+        printToAll("Setup: 8 Twists. Add an extra Henchman group to the Villain Deck.") end
+    if schm=="Portals to the Dark Dimension" then
+        printToAll("Setup: 7 Twists. Each Twist is a Dark Portal.");numTwists[1]=7 end
+    if schm=="Replace Earth's Leaders With Killbots" then
+        printToAll("Setup: 5 Twists. 3 additional Twists next to this Scheme. 18 total Bystanders in the Villain Deck.")
+        numTwists[1]=5;numTwists[2]=3; numBystanders[1] = 18
+        --printToAll("Bystanders in the Villain Deck count as Killbot Villains with Attack equal to the number of Twists next to this Scheme.")
+    end
+    if schm=="Secret Invasion Of The Skrull Shapeshifters" then
+        printToAll("Setup: 8 Twists. 6 Heroes. Skrull Villain Group required. Shuffle 12 random Heroes from the Hero Deck into the Villain Deck.")
+        --printToAll("Special Rules: Heroes in the Villain Deck count as Skrull Villains with Attack equal to the Hero's Cost +2. If you defeat that Hero, you gain it.")
+    end
+    if schm=="Super Hero Civil War" then
+        printToAll("Setup: For 2-3 players, use 8 Twists. For 4-5 players, use 5 Twists. If only 2 players, use only 4 Heroes in the Hero Deck.")
+        if numPlayers==4 then numTwists[1]=5 end; if numPlayers==5 then numTwists[1]=5 end
+    end
+    if schm=="Unleash The Power Of The Cosmic Cube" then
+        printToAll("8 Twists.") end
+
+    -- villains
+    if schm=="Build An Underground Mega-Vault Prison" then
+        printToAll("Setup: 8 Twists. The Bindings stack holds 5 Bindings per player.");numBindings=5*numPlayers end
+    if schm=="Cage Villains In Power-Suppressing Cells" then
+        printToAll("Setup: 8 Twists. Stack 2 Cops per player next to this Plot.")
+        --printToAll("Special Rules: You can fight any Cop on top of Allies. If you do, the player of your choice gains that Ally.")
+    end
+    if schm=="Crown Thor King Of Asgard" then
+        printToAll("Setup: 8 Twists. Put the Thor Adversary next to this Plot.")
+        --printToAll('Special Rules: Whenever Thor overruns, stack a Plot Twist from the KO pile next to this Plot as a "Triumph of Asgard."')
+    end
+    if schm=="Crush Hydra" then
+        printToAll("Setup: 8 Twists.")
+        --printToAll("Special Rules: An Adversary gets +1 Attack for each Ally it has captured. When you fight that Adversary, gain those Allies.")
+    end
+    if schm=="Graduation At Xavier's X-Academy" then
+        printToAll('Setup: 8 Twists. Stack 8 Bystanders next to this Plot as "Young Mutants."'); numBystanders[2]=8 end
+    if schm=="Infiltrate The Lair With Spies" then
+        printToAll('Setup: 8 Twists. Stack 21 Bystanders next to this plot as "Infiltrating Spies."'); numBystanders[2]=21
+        --printToAll("Special Rules: When you recruit an Ally, kidnap any Bystander in that Lair space. When an Ally leaves the Lair in any other way, put any Bystander from that Lair space into the Overrun Pile.")
+    end
+    if schm=="Mass Produce War Machine Armor" then
+        printToAll("Setup: 8 Twists. Include 10 S.H.I.E.L.D. Assault Squads as one of the Backup Adversary groups.")
+        --printToAll("Assault Squads get +1 Attack for each War Machine Technology next to this Plot.")
+    end
+    if schm=="Resurrect Heroes With The Norn Stones" then
+        printToAll("Setup: 8 Twists.")
+    end
+
+    if numPlayers==1 then printToAll("Setup: Add 1 Master Strike card to the Villain Deck.")
+    else printToAll("Setup: Add 5 Master Strike cards to the Villain Deck.") end
+    if numBystanders[1] ~= 0 then bystanderString = "Setup: "..numBystanders[1].." Bystanders.";printToAll(bystanderString)
+    else
+        if numPlayers==1 then printToAll("Setup: 1 Bystander."); numBystanders[1] = 1
+        elseif numPlayers==2 then printToAll("Setup: 2 Bystanders."); numBystanders[1] = 2
+        elseif numPlayers==3 then printToAll("Setup: 8 Bystanders."); numBystanders[1] = 8
+        elseif numPlayers==4 then printToAll("Setup: 8 Bystanders."); numBystanders[1] = 8
+        else printToAll("Setup: 12 Bystanders."); numBystanders[1] = 12 end
+    end
+end
+
+--[[
+function customMastermind()
+    
+end
+customMastermindTable = {"Dr. Doom" = false, "Loki" = false}
+function drDoomSelection(player,value)
+    if value=="False" then customMastermindTable["Dr. Doom"]=false
+    else customMastermindTable["Dr. Doom"]=true end
+end
+function lokiSelection(player,value)
+    if value=="False" then customMastermindTable["Loki"]=false
+    else customMastermindTable["Loki"]=true end
+end
+--]]
