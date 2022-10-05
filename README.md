@@ -1,6 +1,6 @@
 # Bots-and-Mods
 
-Code written to create bots for Discord, mods for games, etc. Personal projects that are all executable while work in progress.
+Code written to create bots for Discord, mods for games, etc. Personal projects that are all executable while remaining works in progress.
 
 ## Discord
 `magic_conch_bot.py` contains code for a work in progress Discord bot that either has simple response to a text command or outputs trivia questions from a local file.
